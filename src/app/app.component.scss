@@ -35,5 +35,9 @@ biit-navbar {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5em;
-  padding: 0 20em;
+  padding: 0 18%;
+
+  ::ng-deep biit-tooltip {
+    position: absolute;
+  }
 }
