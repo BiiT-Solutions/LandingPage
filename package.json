@@ -1,10 +1,10 @@
 {
   "name": "landing-page",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "scripts": {
     "ng": "ng",
     "start": "npm run prepare:translations && ng serve",
-    "build": "npm run prepare:translations && ng build --output-hashing=all --configuration docker",
+    "build": "npm run prepare:translations && ng build --output-hashing=all --configuration docker --base-href /landing-page",
     "watch": "npm run prepare:translations && ng build --watch --configuration docker",
     "clean:translations": "del-cli --force ./src/assets/i18n/biit-ui/",
     "prepare:translations": "npm run clean:translations && cpx \"./node_modules/biit-ui/assets/i18n/**/*.json\" \"./src/assets/i18n/biit-ui/\"",
