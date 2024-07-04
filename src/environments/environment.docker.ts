@@ -8,4 +8,5 @@ export class Environment {
   public static readonly XFORMS_SERVER: string = 'DOCKER:XFORMS_URL';
   public static readonly SURVEYS_CREDIBILITY_SERVER: string = 'DOCKER:SURVEYS_CREDIBILITY_URL';
   public static readonly SURVEYS_NCA_SERVER: string = 'DOCKER:SURVEYS_NCA_URL';
+  public static readonly PROFILE_MATCHER_SERVER: string = 'DOCKER:PROFILE_MATCHER_URL';
 }
