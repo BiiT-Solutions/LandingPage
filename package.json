@@ -1,6 +1,6 @@
 {
   "name": "landing-page",
-  "version": "0.1.121",
+  "version": "0.1.122",
   "scripts": {
     "ng": "ng",
     "start": "npm run prepare:translations && ng serve",
