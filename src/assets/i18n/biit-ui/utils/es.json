@@ -9,6 +9,7 @@
   "logout": "Su sessión se ha cerrado correctamente.",
   "request_success": "Tu petición ha sido completada satisfactoriamente.",
   "request_failed": "Tu petición ha fallado. Por favor, inténtalo más tarde.",
+  "request_unsuccessful": "Tu petición ha fallado. Por favor, inténtalo más tarde.",
   "user_expired": "Este usuario ha expirado.",
   "action_not_allowed": "Esta acción no está permitida.",
   "database_integrity_violation": "Parece que ha habido un problema. Por favor, reporta el siguiente código de error: ERR_DBIV",
@@ -24,6 +25,7 @@
   "message_not_readable": "Parece que ha habido un problema. Por favor, reporta el siguiente código de error: ERR_MNR0",
   "not_found": "Parece que ha habido un problema. Por favor, reporta el siguiente código de error: ERR_NFE0",
   "invalid_credentials": "Las credenciales son inválidas. Por favor, compruébalas e inténtalo de nuevo.",
+  "email_does_not_exists": "El correo electrónico no existe.",
   "email_already_exists": "El correo electrónico ya está en uso.",
   "user_already_exists": "El usuario ya existe.",
   "invalid_password": "La contraseña es inválida.",
@@ -50,6 +52,7 @@
   "fact_not_found": "No se pudo encontrar el fact.",
   "template_not_found": "No se pudo encontrar el template.",
   "form_not_found": "No se pudo encontrar el form.",
+  "report_not_found": "No se pudo encontrar el report.",
   "error_generating_pdf": "Ha habido un error al generar el PDF.",
   "element_does_not_exists": "Este elemento no existe."
 }

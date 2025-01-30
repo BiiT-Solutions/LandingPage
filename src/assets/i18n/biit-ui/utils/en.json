@@ -9,6 +9,7 @@
   "logout": "Your account was logged out successfully.",
   "request_success": "Your request has been completed successfully.",
   "request_failed": "Your request failed. Please, try again later.",
+  "request_unsuccessful": "Your request failed. Please, try again later.",
   "user_expired": "This user has expired.",
   "action_not_allowed": "This action is not allowed.",
   "database_integrity_violation": "There seems to be an issue. Please report the next issue code: ERR_DBIV",
@@ -24,6 +25,7 @@
   "message_not_readable": "There seems to be an issue. Please report the next issue code: ERR_MNR0",
   "not_found": "There seems to be an issue. Please report the next issue code: ERR_NFE0",
   "invalid_credentials": "The credentials are invalid. Please check them and try again.",
+  "email_does_not_exists": "The email does not exist.",
   "email_already_exists": "The email is already in use.",
   "user_already_exists": "The user already exists.",
   "invalid_password": "The password is invalid.",
@@ -50,6 +52,7 @@
   "fact_not_found": "Couldn't find the fact.",
   "template_not_found": "Couldn't find the template.",
   "form_not_found": "Couldn't find the form.",
+  "report_not_found": "Couldn't find the report.",
   "error_generating_pdf": "There has been an error generating the PDF.",
   "element_does_not_exists": "This element does not exist."
 }
