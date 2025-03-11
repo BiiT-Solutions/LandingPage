@@ -25,6 +25,12 @@
                          icon="landing_xforms"
                          (click)="goToPage(Environment.XFORMS_SERVER)"
       ></biit-gallery-card>
+      <biit-gallery-card [title]="'Profile Form'" *ngIf="Environment.PROFILE_FORM_GALLERY_CARD_VISIBLE"
+                         subtitle="Profile Form"
+                         tooltip="XForms Runner"
+                         icon="landing_xforms"
+                         (click)="goToPage(Environment.PROFILE_FORM_URL)"
+      ></biit-gallery-card>
       <biit-gallery-card [title]="'User Manager'" *ngIf="Environment.USER_MANAGER_GALLERY_CARD_VISIBLE"
                          subtitle="User administration tool"
                          tooltip="User administration tool"

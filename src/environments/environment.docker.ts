@@ -6,6 +6,7 @@ export class Environment {
   public static readonly APPOINTMENT_CENTER_SERVER: string = 'DOCKER:APPOINTMENT_CENTER_URL';
   public static readonly BOARDING_PASS_SERVER: string = 'DOCKER:BOARDING_PASS_URL';
   public static readonly XFORMS_SERVER: string = 'DOCKER:XFORMS_URL';
+  public static readonly PROFILE_FORM_URL: string = 'DOCKER:PROFILE_FORM_URL';
   public static readonly SURVEYS_CREDIBILITY_SERVER: string = 'DOCKER:SURVEYS_CREDIBILITY_URL';
   public static readonly SURVEYS_NCA_SERVER: string = 'DOCKER:SURVEYS_NCA_URL';
   public static readonly PROFILE_MATCHER_SERVER: string = 'DOCKER:PROFILE_MATCHER_URL';
@@ -15,6 +16,7 @@ export class Environment {
   public static readonly NCA_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_NCA';
   public static readonly CREDIBILITY_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_CREDIBILITY';
   public static readonly XFORMS_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_XFORMS';
+  public static readonly PROFILE_FORM_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_PROFILE_FORM';
   public static readonly USER_MANAGER_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_USER_MANAGER';
   public static readonly DASHBOARD_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_DASHBOARD';
   public static readonly APPOINTMENT_CENTER_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_APPOINTMENT_CENTER';
