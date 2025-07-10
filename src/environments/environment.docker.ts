@@ -11,6 +11,8 @@ export class Environment {
   public static readonly SURVEYS_NCA_SERVER: string = 'DOCKER:SURVEYS_NCA_URL';
   public static readonly PROFILE_MATCHER_SERVER: string = 'DOCKER:PROFILE_MATCHER_URL';
   public static readonly KNOWLEDGE_SYSTEM_SERVER: string = 'DOCKER:KNOWLEDGE_SYSTEM_URL';
+  public static readonly WEBFORMS_SERVER: string = 'DOCKER:WEBFORMS_URL';
+  public static readonly ABCD_SERVER: string = 'DOCKER:ABCD_URL';
 
   public static readonly CADT_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_CADT';
   public static readonly NCA_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_NCA';
@@ -23,4 +25,6 @@ export class Environment {
   public static readonly BOARDING_PASS_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_BOARDING_PASS';
   public static readonly PROFILE_MATCHER_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_PROFILE_MATCHER';
   public static readonly KNOWLEDGE_SYSTEM_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_KNOWLEDGE_SYSTEM';
+  public static readonly WEBFORMS_GALLERY_CARD_VISIBLE ='DOCKER:ENABLE_WEBFORMS';
+  public static readonly ABCD_GALLERY_CARD_VISIBLE = 'DOCKER:ENABLE_ABCD';
 }

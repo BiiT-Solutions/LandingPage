@@ -19,6 +19,18 @@
                          icon="landing_surveys"
                          (click)="goToPage(Environment.SURVEYS_CREDIBILITY_SERVER)"
       ></biit-gallery-card>
+      <biit-gallery-card [title]="'Webforms'" *ngIf="Environment.WEBFORMS_GALLERY_CARD_VISIBLE"
+                         subtitle="Defines an interactable form."
+                         tooltip="Defines an interactable form."
+                         icon="landing_webforms"
+                         (click)="goToPage(Environment.WEBFORMS_SERVER)"
+      ></biit-gallery-card>
+      <biit-gallery-card [title]="'ABCD'" *ngIf="Environment.ABCD_GALLERY_CARD_VISIBLE"
+                         subtitle="Creates rules for forms."
+                         tooltip="Creates rules that will be executed when received a submitted form."
+                         icon="landing_abcd"
+                         (click)="goToPage(Environment.ABCD_SERVER)"
+      ></biit-gallery-card>
       <biit-gallery-card [title]="'xForms'" *ngIf="Environment.XFORMS_GALLERY_CARD_VISIBLE"
                          subtitle="XForms Runner"
                          tooltip="XForms Runner"
