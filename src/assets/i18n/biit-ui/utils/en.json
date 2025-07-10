@@ -10,6 +10,8 @@
   "request_success": "Your request has been completed successfully.",
   "request_failed": "Your request failed. Please, try again later.",
   "request_unsuccessful": "Your request failed. Please, try again later.",
+  "delete_request_success": "The element has been deleted successfully.",
+  "update_request_success": "The element has been updated.",
   "user_expired": "This user has expired.",
   "action_not_allowed": "This action is not allowed.",
   "database_integrity_violation": "There seems to be an issue. Please report the next issue code: ERR_DBIV",
@@ -35,6 +37,8 @@
   "token_expired": "The token has expired.",
   "application_backend_role_not_found": "Couldn't find this application role.",
   "email_not_sent": "The email has not been sent.",
+  "role_already_exists": "This role already exists or it is already assigned to the entity.",
+  "user_group_already_exists": "A group with this name already exists.",
   "invalid_recurrence": "The recurrence is invalid.",
   "recurrence_not_found": "Couldn't find this recurrence.",
   "examination_type_not_found": "Couldn't find this examination type.",
@@ -54,5 +58,8 @@
   "form_not_found": "Couldn't find the form.",
   "report_not_found": "Couldn't find the report.",
   "error_generating_pdf": "There has been an error generating the PDF.",
-  "element_does_not_exists": "This element does not exist."
+  "element_does_not_exists": "This element does not exist.",
+  "temporal_token_does_not_exists": "This token does not exist or has expired.",
+  "invalid_availability_range": "Selected range is not valid!",
+  "input_data_is_invalid": "Provided data are invalid!"
 }

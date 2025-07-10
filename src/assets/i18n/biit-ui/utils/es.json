@@ -10,6 +10,8 @@
   "request_success": "Tu petición ha sido completada satisfactoriamente.",
   "request_failed": "Tu petición ha fallado. Por favor, inténtalo más tarde.",
   "request_unsuccessful": "Tu petición ha fallado. Por favor, inténtalo más tarde.",
+  "delete_request_success": "El element ha sido borrado correctamente.",
+  "update_request_success": "El elemento ha sido actualiazado.",
   "user_expired": "Este usuario ha expirado.",
   "action_not_allowed": "Esta acción no está permitida.",
   "database_integrity_violation": "Parece que ha habido un problema. Por favor, reporta el siguiente código de error: ERR_DBIV",
@@ -35,6 +37,8 @@
   "token_expired": "El token ha expirado.",
   "application_backend_role_not_found": "No se pudo encontrar el rol de aplicación.",
   "email_not_sent": "El email no ha sido enviado.",
+  "role_already_exists": "El rol ya existe o ya ha sido asignado.",
+  "user_group_already_exists": "Ya existe un grupo con este nombre.",
   "invalid_recurrence": "La recurrencia es inválida.",
   "recurrence_not_found": "No se pudo encontrar la recurrencia.",
   "examination_type_not_found": "No se pudo encontrar el tipo de examinación.",
@@ -54,5 +58,8 @@
   "form_not_found": "No se pudo encontrar el form.",
   "report_not_found": "No se pudo encontrar el report.",
   "error_generating_pdf": "Ha habido un error al generar el PDF.",
-  "element_does_not_exists": "Este elemento no existe."
+  "element_does_not_exists": "Este elemento no existe.",
+  "temporal_token_does_not_exists": "El token utilizado no existe o ha expirado.",
+  "invalid_availability_range": "¡El rango seleccionado es invalido!",
+  "input_data_is_invalid": "Los datos enviados al servidor son inválidos."
 }
