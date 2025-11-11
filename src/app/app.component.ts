@@ -1,8 +1,8 @@
 import {Component} from "@angular/core";
 import {AvailableLangs, TranslocoService} from "@ngneat/transloco";
 import {Router} from "@angular/router";
-import {BiitIconService} from "biit-ui/icon";
-import {completeIconSet} from "biit-icons-collection";
+import {BiitIconService} from "@biit-solutions/wizardry-theme/icon";
+import {completeIconSet} from "@biit-solutions/biit-icons-collection";
 import {Environment} from "../environments/environment";
 
 @Component({

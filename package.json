@@ -1,16 +1,19 @@
 {
-  "name": "landing-page",
+  "name": "@biit-solutions/landing-page",
   "version": "0.1.174",
+  "license": "AGPLv3",
+  "author": "BiiT Sourcing Solutions",
+  "private": false,
   "scripts": {
     "ng": "ng",
     "start": "npm run prepare:translations && ng serve",
     "build": "npm run prepare:translations && ng build --output-hashing=all --configuration docker --base-href /landing-page",
     "watch": "npm run prepare:translations && ng build --watch --configuration docker",
     "clean:translations": "del-cli --force ./src/assets/i18n/biit-ui/",
-    "prepare:translations": "npm run clean:translations && cpx \"./node_modules/biit-ui/assets/i18n/**/*.json\" \"./src/assets/i18n/biit-ui/\"",
+    "prepare:translations": "npm run clean:translations && cpx \"./node_modules/@biit-solutions/wizardry-theme/assets/i18n/**/*.json\" \"./src/assets/i18n/biit-ui/\"",
     "prepare:docs": "cpx ./README.md ./dist/landing-page && echo \"{\\\"name\\\": \\\"`node -e \"console.log(require('./package.json').name);\"\n`\\\", \\\"version\\\": \\\"`node -e \"console.log(require('./package.json').version);\"\n`\\\"}\" > ./dist/landing-page/package.json",
     "prepare:publication": "npm run build && npm run prepare:docs",
-    "publish": "npm run prepare:publication && npm publish ./dist/landing-page",
+    "publish": "npm run prepare:publication && npm publish --access=public ./dist/landing-page",
     "test": "ng test"
   },
   "dependencies": {
@@ -25,8 +28,8 @@
     "@angular/platform-browser-dynamic": "v15-lts",
     "@angular/router": "v15-lts",
     "@ngneat/transloco": "^4.3.0",
-    "biit-icons-collection": "latest",
-    "biit-ui": "latest",
+    "@biit-solutions/biit-icons-collection": "latest",
+    "@biit-solutions/wizardry-theme": "latest",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
@@ -44,5 +47,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BiiT-Solutions/LandingPage.git"
   }
 }

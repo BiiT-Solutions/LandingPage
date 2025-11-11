@@ -1,6 +1,6 @@
 {
   "400": "Ups! Parece que esta página y su servidor no están en sincronía!. Por favor, pruebe a refrescar la página y limpiar la cache.",
-  "401": "Ups! Parece que tu usuario y contraseña no son correctos. Por favor, compruébalo e insténtalo de nuevo.",
+  "401": "Ups! Parece que tus credenciales no son correctas o no tienes los suficientes permisos. Por favor, compruébalo e insténtalo de nuevo.",
   "403": "Ups! Parece que tu usuario no tiene permisos para acceder a este recurso.",
   "404": "Lo sentimos, pero parece que nuestros servicios no se encuentran disponibles en este momento. Pruebe de nuevo más tarde.",
   "423": "Has alcanzado el número máximo de intentos. Por favor, pruebe de nuevo más tarde.",
@@ -39,6 +39,7 @@
   "email_not_sent": "El email no ha sido enviado.",
   "role_already_exists": "El rol ya existe o ya ha sido asignado.",
   "user_group_already_exists": "Ya existe un grupo con este nombre.",
+  "project_already_exists": "Ya existe un grupo con este nombre.",
   "invalid_recurrence": "La recurrencia es inválida.",
   "recurrence_not_found": "No se pudo encontrar la recurrencia.",
   "examination_type_not_found": "No se pudo encontrar el tipo de examinación.",
@@ -53,6 +54,7 @@
   "profile_not_found": "No se pudo encontrar el perfil.",
   "candidate_not_found": "No se pudo encontrar el candidato.",
   "comment_too_long": "El comentario es demasiado largo. Por favor, mantenlo por debajo de 10.000 caracteres.",
+  "profile_not_assigned_to_project": "El perfil no pertenece al proyecto.",
   "fact_not_found": "No se pudo encontrar el fact.",
   "template_not_found": "No se pudo encontrar el template.",
   "form_not_found": "No se pudo encontrar el form.",
@@ -61,5 +63,7 @@
   "element_does_not_exists": "Este elemento no existe.",
   "temporal_token_does_not_exists": "El token utilizado no existe o ha expirado.",
   "invalid_availability_range": "¡El rango seleccionado es invalido!",
-  "input_data_is_invalid": "Los datos enviados al servidor son inválidos."
+  "input_data_is_invalid": "Los datos enviados al servidor son inválidos.",
+  "invalid_number_of_organizations": "El usuario debe pertenecer a una única organización.",
+  "conflicting_data": "Los datos a insertar entran en conflicto con aquellos almacenados en la base de datos."
 }

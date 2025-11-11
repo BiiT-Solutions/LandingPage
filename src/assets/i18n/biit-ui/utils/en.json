@@ -1,6 +1,6 @@
 {
   "400": "Oops! It looks this app and our server are not on sync!. Please try to refresh the page and clear cache.",
-  "401": "Oops! It looks like your username or password is incorrect. Please try again.",
+  "401": "Oops! It looks like your credentials are wrong, or you have not permissions. Please try again.",
   "403": "Oops! It looks like your user has no permissions to access this service.",
   "404": "We are sorry, but it looks our services are not online currently. Please try again later.",
   "423": "You have reached the maximum number of login attempts. Please try again later.",
@@ -39,6 +39,7 @@
   "email_not_sent": "The email has not been sent.",
   "role_already_exists": "This role already exists or it is already assigned to the entity.",
   "user_group_already_exists": "A group with this name already exists.",
+  "project_already_exists": "A project with this name already exists.",
   "invalid_recurrence": "The recurrence is invalid.",
   "recurrence_not_found": "Couldn't find this recurrence.",
   "examination_type_not_found": "Couldn't find this examination type.",
@@ -46,13 +47,14 @@
   "professional_specialization_not_found": "Couldn't find this professional specialization.",
   "invalid_parameter": "Invalid parameter.",
   "invalid_format": "Invalid format.",
-  "user_not_in_appointment": "The user is not registered to the appointment.",
-  "user_already_in_appointment": "The user is already registered to the appointment.",
+  "user_not_in_appointment": "The user is not registered in the appointment.",
+  "user_already_in_appointment": "The user is already registered in this appointment.",
   "attendance_not_found": "Couldn't find the attendance.",
   "malformed_profile": "Malformed profile.",
   "profile_not_found": "Couldn't find the profile.",
   "candidate_not_found": "Couldn't find the candidate.",
   "comment_too_long": "The comment is too long. Please, keep it under 10.000 characters.",
+  "profile_not_assigned_to_project": "The profile is not assigned to the selected project.",
   "fact_not_found": "Couldn't find the fact.",
   "template_not_found": "Couldn't find the template.",
   "form_not_found": "Couldn't find the form.",
@@ -61,5 +63,7 @@
   "element_does_not_exists": "This element does not exist.",
   "temporal_token_does_not_exists": "This token does not exist or has expired.",
   "invalid_availability_range": "Selected range is not valid!",
-  "input_data_is_invalid": "Provided data are invalid!"
+  "input_data_is_invalid": "Provided data are invalid!",
+  "invalid_number_of_organizations": "User must only pertain to one organization.",
+  "conflicting_data": "Inserted data conflicts with already existing data on database."
 }
